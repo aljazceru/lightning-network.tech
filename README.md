@@ -1,6 +1,6 @@
 # Comprehensive Lightning Network Node Operator Resources
 
-A curated collection of essential tools, guides, and communities for Bitcoin Lightning Network node operators. Maintained by [@aaaljaz](https://twitter.com/aaaljaz).
+A curated collection of essential tools, guides, and communities for Bitcoin Lightning Network node operators.
 
 ## Introduction
 
@@ -80,7 +80,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [LND (Lightning Network Daemon)](https://github.com/lightningnetwork/lnd)
 - [Core Lightning (formerly c-lightning)](https://github.com/ElementsProject/lightning)
 - [Eclair: Scala-based Lightning Implementation](https://github.com/ACINQ/eclair)
-- [Sensei: Rust-based Lightning Node Implementation](https://github.com/L2-Technology/sensei)
+- [LDK-node](https://github.com/lightningdevkit/ldk-node)
 
 ## Node Management Web Interfaces
 
@@ -99,7 +99,16 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 ## Node Management Tools
 
+- [LN-Charts: Visualization Tool for Lightning Network Data](https://github.com/cold-sats/ln-charts)
+
+### CLN Tools 
 - [CLN Cheatsheet: Quick Reference for Core Lightning Commands](https://github.com/grubles/cln-cheatsheet)
+* [lnurl-commando][lnurl-commando] - An lnurl/lnaddress server that fetches invoices over commando
+- [CLBOSS: Automated Core Lightning Node Manager](https://github.com/ZmnSCPxj/clboss)
+* [Rune Workshop](https://jb55.com/runes) - A web UI for constructing commando auth runes
+* [c-lightning-REST](https://github.com/Ride-The-Lightning/c-lightning-REST) - REST APIs for c-lightning written with node.js
+
+### LND Tools
 - [Balance of Satoshis: Advanced Node Management Toolkit](https://github.com/alexbosworth/balanceofsatoshis)
 - [BOS Commands Document: Comprehensive Guide to Balance of Satoshis](https://github.com/niteshbalusu11/BOS-Commands-Document)
 - [Charge-LND: Automated Fee Management for LND](https://github.com/accumulator/charge-lnd)
@@ -110,9 +119,8 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [LNDManage: Python-based LND Management Suite](https://github.com/bitromortac/lndmanage)
 - [LNTop: Top-like Monitoring Tool for LND](https://github.com/edouardparis/lntop)
 - [Suez: Channel Rebalancing Script](https://github.com/prusnak/suez)
-- [CLBOSS: Automated Core Lightning Node Manager](https://github.com/ZmnSCPxj/clboss)
 - [LND-ManageJ: Java-based LND Management Tool](https://github.com/C-Otto/lnd-manageJ)
-- [LN-Charts: Visualization Tool for Lightning Network Data](https://github.com/cold-sats/ln-charts)
+
 
 ## Node Services
 
