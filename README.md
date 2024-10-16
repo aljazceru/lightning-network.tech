@@ -107,6 +107,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [CLBOSS: Automated Core Lightning Node Manager](https://github.com/ZmnSCPxj/clboss)
 * [Rune Workshop](https://jb55.com/runes) - A web UI for constructing commando auth runes
 * [c-lightning-REST](https://github.com/Ride-The-Lightning/c-lightning-REST) - REST APIs for c-lightning written with node.js
+- [circular](https://github.com/giovannizotta/circular) - Core Lightning plugin that helps routing nodes rebalance their channels 
 
 ### LND Tools
 - [Balance of Satoshis: Advanced Node Management Toolkit](https://github.com/alexbosworth/balanceofsatoshis)
