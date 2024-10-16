@@ -1,185 +1,239 @@
-Collection of useful resources for lightning node operators maintained by [@aaaljaz](https://twitter.com/aaaljaz).
+# Comprehensive Lightning Network Node Operator Resources
 
+A curated collection of essential tools, guides, and communities for Bitcoin Lightning Network node operators. Maintained by [@aaaljaz](https://twitter.com/aaaljaz).
 
-### Must reads
-- [Understanding Lightning by Diamond Hands](https://docsend.com/view/x2yscafayexddzps)
-- [Lopp liquidity management guide](https://blog.lopp.net/lightning-network-liquidity-management-guide/)
-- [Liquidity mgmt by Alex Bosworth](https://github.com/alexbosworth/run-lnd/blob/master/LIQUIDITY.md)
-- [Lightning 101: Node Profitability feat PLEBNET](https://www.youtube.com/watch?v=LRZy-VtCPe4)
-- [Adventures in running a lightning node](https://medium.com/coinmonks/adventures-in-running-a-bitcoin-lightning-node-part-1-the-awakening-61345585acc3)
-- [how to get inbound liquidity](https://www.youtube.com/watch?v=WWs1D9LLcpc)
+## Introduction
 
+This guide provides a comprehensive list of resources for Lightning Network node operators, including installation guides, management tools, security best practices, and community resources. Whether you're a beginner or an experienced operator, you'll find valuable information to help you run and optimize your Lightning Network node.
 
-### Install LND 
-- [lnd install guide by Alex Bosworth](https://github.com/alexbosworth/run-lnd)
-- [official lnd install docs](https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md)
-- [bitcoin-kit-makefile](https://github.com/Perlover/bitcoin-kit-makefile)
-- [lnd postgres](https://github.com/blckbx/lnd_postgres)
-- [lnd via vpn](https://github.com/Wired4ncer/lnd_via_vpn)
-- [the road to node](https://docs.theroadtonode.com/)
+## Table of Contents
 
-### Install CLN
-- [video tutorial for CLN install](https://www.youtube.com/watch?v=_Hrnls92TxQ)
-- [rootzoll's CLN guide](https://github.com/rootzoll/raspiblitz/blob/dev/FAQ.cl.md)
-- [raspiblitz CLN guide](https://raspibolt.org/guide/bonus/lightning/cln.html)
-- [core lightning plugins](https://github.com/lightningd/plugins)
+1. [Essential Reading](#essential-reading)
+2. [Node Installation](#node-installation)
+3. [Backups and Recovery](#backups-and-recovery)
+4. [Self-Hosting Solutions](#self-hosting-solutions)
+5. [Managed Cloud Hosting](#managed-cloud-hosting)
+6. [Lightning Network Implementations](#lightning-network-implementations)
+7. [Node Management Web Interfaces](#node-management-web-interfaces)
+8. [Security Tools](#security-tools)
+9. [Node Management Tools](#node-management-tools)
+10. [Node Services](#node-services)
+11. [Channel Management](#channel-management)
+12. [Tutorials and Guides](#tutorials-and-guides)
+13. [Liquidity Management](#liquidity-management)
+14. [Network Explorers](#network-explorers)
+15. [Communities](#communities)
+16. [Watchtowers](#watchtowers)
+17. [Mempool Resources](#mempool-resources)
+18. [Educational Resources](#educational-resources)
+19. [Network Statistics](#network-statistics)
+20. [Further Reading](#further-reading)
 
-### Backups and recovery
-- [lnd backup and recovery](https://github.com/lightningnetwork/lnd/blob/master/docs/recovery.md)
-- [core lightning backup](https://lightning.readthedocs.io/BACKUP.html)
+## Essential Reading
 
-### Self-host on raspberrypi or custom hardware
-- [raspiblitz](https://github.com/rootzoll/raspiblitz)
-- [umbrel](https://getumbrel.com/)
-- [mynodebtc](https://mynodebtc.com/)
-- [nixbitcoin](https://nixbitcoin.org/)
-- [blockstream tutorial](https://medium.com/blockstream/build-a-pretty-good-lightning-network-node-468778a078b7)
+- [Understanding Lightning Network: Comprehensive Guide by Diamond Hands](https://docsend.com/view/x2yscafayexddzps)
+- [Jameson Lopp's Lightning Network Liquidity Management Guide](https://blog.lopp.net/lightning-network-liquidity-management-guide/)
+- [Alex Bosworth's In-Depth Liquidity Management Strategies](https://github.com/alexbosworth/run-lnd/blob/master/LIQUIDITY.md)
+- [Lightning Network Node Profitability: PLEBNET Insights](https://www.youtube.com/watch?v=LRZy-VtCPe4)
+- [Running a Lightning Network Node: A Beginner's Journey](https://medium.com/coinmonks/adventures-in-running-a-bitcoin-lightning-node-part-1-the-awakening-61345585acc3)
+- [Mastering Inbound Liquidity: Step-by-Step Guide](https://www.youtube.com/watch?v=WWs1D9LLcpc)
 
-### Managed cloud hosting 
-- [nodl](https://www.nodl.eu/)
-- [voltage](https://voltage.cloud/)
-- [tidebinder](https://www.tidebinder.com)
+## Node Installation
 
-### Implementations 
-- [LND](https://github.com/lightningnetwork/lnd)
-- [core lightning](https://github.com/ElementsProject/lightning)
-- [eclair](https://github.com/ACINQ/eclair)
-- [sensei](https://github.com/L2-Technology/sensei)
+### LND (Lightning Network Daemon)
 
-### Web UI for node management
-- [Ride the Lightning](https://github.com/Ride-The-Lightning/RTL)
-- [Thunderhub](https://github.com/apotdevin/thunderhub)
-- [lncli-web](https://github.com/mably/lncli-web)
-- [lightning terminal](https://github.com/lightninglabs/lightning-terminal)
-- [lndg](https://github.com/cryptosharks131/lndg)
-- [torq](https://github.com/lncapital/torq)
+- [Alex Bosworth's Comprehensive LND Installation Guide](https://github.com/alexbosworth/run-lnd)
+- [Official LND Installation Documentation](https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md)
+- [Bitcoin Kit Makefile: Streamlined Installation](https://github.com/Perlover/bitcoin-kit-makefile)
+- [LND with PostgreSQL Integration](https://github.com/blckbx/lnd_postgres)
+- [Secure LND Setup via VPN](https://github.com/Wired4ncer/lnd_via_vpn)
+- [The Road to Node: Detailed LND Setup Guide](https://docs.theroadtonode.com/)
 
-### Security
-- [Validated Lightning Signer](https://vls.tech/)
-- [Sphinx key](https://github.com/stakwork/sphinx-key)
-- [Lightning Vault](https://github.com/bolt-observer/lightning-vault/) 
+### CLN (Core Lightning)
 
-### Node management
-- [cln cheatsheet](https://github.com/grubles/cln-cheatsheet)
-- [balanceofsatoshis](https://github.com/alexbosworth/balanceofsatoshis)
-- [BOS-Commands-Document](https://github.com/niteshbalusu11/BOS-Commands-Document)
-- [charge-lnd](https://github.com/accumulator/charge-lnd)
-- [rebalance-lnd](https://github.com/C-Otto/rebalance-lnd)
-- [circuitbreaker](https://github.com/lightningequipment/circuitbreaker)
-- [lndpytools](https://github.com/Gridflare/lndpytools)
-- [lightning-jet](https://github.com/itsneski/lightning-jet)
-- [lndmanage](https://github.com/bitromortac/lndmanage)
-- [lntop](https://github.com/edouardparis/lntop)
-- [suez](https://github.com/prusnak/suez)
-- [clboss](https://github.com/ZmnSCPxj/clboss)
-- [lnd-manageJ](https://github.com/C-Otto/lnd-manageJ)
-- [ln-charts](https://github.com/cold-sats/ln-charts)
+- [Video Tutorial: Step-by-Step CLN Installation](https://www.youtube.com/watch?v=_Hrnls92TxQ)
+- [Rootzoll's Comprehensive CLN Guide](https://github.com/rootzoll/raspiblitz/blob/dev/FAQ.cl.md)
+- [RaspiBolt CLN Installation and Configuration](https://raspibolt.org/guide/bonus/lightning/cln.html)
+- [Core Lightning Plugins Repository](https://github.com/lightningd/plugins)
 
-### Node services  
-- [lnrouter.app](https://lnrouter.app/)
-- [lnnodeinsight](https://lnnodeinsight.com/)
-- [bolt.observer](https://bolt.observer)
-- [lightning.watch](https://lightning.watch/)
+## Backups and Recovery
 
-### Channel open suggestions for your node
-- [gridflare](https://gridflare.xyz/explore/search)
-- [moneni nodematch](https://www.moneni.com/nodematch)
-- [lightning terminal](https://terminal.lightning.engineering/#/)
-- [lightning-network-autopilot](https://github.com/renepickhardt/lightning-network-autopilot)
+- [LND Backup and Recovery Strategies](https://github.com/lightningnetwork/lnd/blob/master/docs/recovery.md)
+- [Core Lightning Backup Best Practices](https://lightning.readthedocs.io/BACKUP.html)
 
-### Tutorials 
-- [Lightning node management by Openoms](https://github.com/openoms/lightning-node-management)
-- [Bitcoin tutorials by openoms](https://github.com/openoms/bitcoin-tutorials)
-- [Node liquidity guide by Darthcoin](https://darthcoin.substack.com/p/node-liquidity-guide)
-- [Lightning cleaning machine by Darthcoin](https://darthcoin.substack.com/p/lightning-cleaning-machine)
-- [Recoveringn funds from stuck closing transactions](https://community.umbrel.com/t/the-guide-where-your-lightning-close-transaction-cant-get-the-channel-closed/15096)
+## Self-Hosting Solutions
 
-### Liquidity
-#### Swaps
-- [Inbound liquidity guide](https://github.com/openoms/lightning-node-management/blob/en/createinboundliquidity.md)
-- [coinos](https://coinos.io/login)
-- [fixedfloat](https://fixedfloat.com/)
-- [sideshift](https://sideshift.ai/btc/ln)
-- [deezy](https://deezy.io/)
-- [boltz.exchange](https://boltz.exchange/)
-- [Loop](https://github.com/lightninglabs/loop)
-- [zigzag](https://zigzag.io/)
+- [RaspiBlitz: DIY Bitcoin & Lightning Node](https://github.com/rootzoll/raspiblitz)
+- [Umbrel: User-Friendly Bitcoin Node](https://getumbrel.com/)
+- [MyNode: Full Bitcoin Node & Lightning Network Box](https://mynodebtc.com/)
+- [NixBitcoin: Nix-based Bitcoin Node](https://nixbitcoin.org/)
+- [Blockstream's Guide: Building a High-Quality Lightning Network Node](https://medium.com/blockstream/build-a-pretty-good-lightning-network-node-468778a078b7)
 
-### LN explorers
-- [1ml.com](https://1ml.com/)
-- [amboss](https://amboss.space/)
-- [acinq explorer](https://explorer.acinq.co/)
-- [lnlighthouse](https://lnlighthouse.online/)
-- [bolt.observer explorer](https://bolt.observer/explorer)
-- [mempool explorer](https://mempool.space/lightning)
+## Managed Cloud Hosting
 
-#### Communities
-- [Rings of Fire](https://github.com/Rings-of-Fire/ring-of-fire/wiki)
-- [Lightning liquidity & Pool](https://t.me/LNBalancedChannels)
-- [liquidity swaps on reddit](https://www.reddit.com/r/TheLightningNetwork/search?sort=new&restrict_sr=on&q=flair%3ALiquidity%2BSwaps)
+- [Nodl: Professional Bitcoin & Lightning Node Solutions](https://www.nodl.eu/)
+- [Voltage: Cloud-Native Bitcoin Infrastructure](https://voltage.cloud/)
+- [Tidebinder: Managed Lightning Network Node Hosting](https://www.tidebinder.com)
 
-#### LSP/Channel lease 
-- [lnbig](https://lnbig.com/)
-- [lightningconductor](https://mainnet.lightningconductor.net/)
-- [LN+](https://lightningnetwork.plus/)
-- [lightning conductor channels](https://lightningconductor.net/channels)
-- [lightningto.me](https://lightningto.me/)
-- [bitrefill](https://www.bitrefill.com/buy/lightning-channel/)
-- [flow by voltage](https://voltage.cloud/flow/)
-- [blocktank](https://blocktank.to/)
+## Lightning Network Implementations
 
-#### Liquidity Marketplace
-- [Pool](https://lightning.engineering/pool/)
-- [Flow](https://voltage.cloud/flow)
-- [Magma](https://amboss.space/magma)
+- [LND (Lightning Network Daemon)](https://github.com/lightningnetwork/lnd)
+- [Core Lightning (formerly c-lightning)](https://github.com/ElementsProject/lightning)
+- [Eclair: Scala-based Lightning Implementation](https://github.com/ACINQ/eclair)
+- [Sensei: Rust-based Lightning Node Implementation](https://github.com/L2-Technology/sensei)
 
-### Watchtowers
-- [The eye of Satoshi](https://github.com/talaia-labs/rust-teos)
-- [lnd watchtower](https://docs.lightning.engineering/lightning-network-tools/lnd/watchtower)
+## Node Management Web Interfaces
 
-### Mempool 
-- [Mempool.space](https://mempool.space/)
-- [bitcoin explorer](https://bitcoinexplorer.org/)
-- [Johoe's Bitcoin Mempool Statistics](https://jochen-hoenicke.de/queue/#BTC,24h,weight)
-- [txstreet.com](https://txstreet.com/v/btc)
+- [Ride The Lightning (RTL): Feature-Rich Web Interface](https://github.com/Ride-The-Lightning/RTL)
+- [Thunderhub: Powerful Lightning Node Management Dashboard](https://github.com/apotdevin/thunderhub)
+- [LNCLi Web: User-Friendly LND Web Client](https://github.com/mably/lncli-web)
+- [Lightning Terminal: All-in-One Node Management Tool](https://github.com/lightninglabs/lightning-terminal)
+- [LNDG: LND Dashboard and Graph](https://github.com/cryptosharks131/lndg)
+- [Torq: Advanced Lightning Network Management Platform](https://github.com/lncapital/torq)
 
-### Communities
-- [Lightning liquidity & Pool](https://t.me/LNBalancedChannels)
-- [Plebnet](https://t.me/plebnet)
-- [ln matrix](https://matrix.to/#/#btcln:matrix.org)
-- [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork/)
-- [r/TheLightningNetwork](https://www.reddit.com/r/TheLightningNetwork/)
-- [Rings of Fire](https://t.me/theRingsOfFire)
+## Security Tools
 
+- [Validated Lightning Signer: Enhanced Security for Lightning Nodes](https://vls.tech/)
+- [Sphinx Key: Hardware Security Module for Lightning](https://github.com/stakwork/sphinx-key)
+- [Lightning Vault: Secure Key Management Solution](https://github.com/bolt-observer/lightning-vault/)
 
-### Education
-- [Lightning curriculum by Chaincode](https://github.com/chaincodelabs/lightning-curriculum)
-- [Mastering Lightning book](https://github.com/lnbook/lnbook)
-- [Rebalance Your Bitcoin Lightning Network Node Like a PRO](https://www.youtube.com/watch?v=0r3Th42zfDk)
-- [How To Run A Bitcoin Lightning Network Node - Step By Step Tutorial](https://www.youtube.com/watch?v=KItleddMYFU)
-- [t-bast docs on lightning](https://github.com/t-bast/lightning-docs)
-- [lightning workshop](https://github.com/roeierez/lightning-workshop)
-- [Cyberhub on lightning network](https://cyberhubnode.notion.site/cyberhubnode/Cyberhub-Home-34858179510a44e89af54e16becf8736)
-- [Lightning network developments by Igor Korsakov](https://www.youtube.com/watch?v=5pmfNOUQg_s)
+## Node Management Tools
 
-### Lightning network stats
-- [1ml.com statistics](https://1ml.com/statistics)
-- [bitcoin visuals - LN](https://bitcoinvisuals.com/lightning)
+- [CLN Cheatsheet: Quick Reference for Core Lightning Commands](https://github.com/grubles/cln-cheatsheet)
+- [Balance of Satoshis: Advanced Node Management Toolkit](https://github.com/alexbosworth/balanceofsatoshis)
+- [BOS Commands Document: Comprehensive Guide to Balance of Satoshis](https://github.com/niteshbalusu11/BOS-Commands-Document)
+- [Charge-LND: Automated Fee Management for LND](https://github.com/accumulator/charge-lnd)
+- [Rebalance-LND: Channel Rebalancing Tool](https://github.com/C-Otto/rebalance-lnd)
+- [CircuitBreaker: Automated Channel Management](https://github.com/lightningequipment/circuitbreaker)
+- [LNDPyTools: Python-based LND Management Utilities](https://github.com/Gridflare/lndpytools)
+- [Lightning Jet: Advanced Node Optimization Tool](https://github.com/itsneski/lightning-jet)
+- [LNDManage: Python-based LND Management Suite](https://github.com/bitromortac/lndmanage)
+- [LNTop: Top-like Monitoring Tool for LND](https://github.com/edouardparis/lntop)
+- [Suez: Channel Rebalancing Script](https://github.com/prusnak/suez)
+- [CLBOSS: Automated Core Lightning Node Manager](https://github.com/ZmnSCPxj/clboss)
+- [LND-ManageJ: Java-based LND Management Tool](https://github.com/C-Otto/lnd-manageJ)
+- [LN-Charts: Visualization Tool for Lightning Network Data](https://github.com/cold-sats/ln-charts)
 
-### Interesting reading
-- [Diamond hands lightning network report](https://medium.com/@coin_and_peace/diamond-hands-lightning-routing-report-jan-2022-85733104fa8d)
-- [Loop lightning network repository](https://www.lopp.net/lightning-information.html)
-- [Lightning landscape](https://www.lightning-landscape.net)
-- [LND security case study - recovering funds from hacked node](https://medium.com/@goryachev/bitcoin-node-security-case-study-e1ca00a378b5)
+## Node Services
 
+- [LNRouter: Comprehensive Lightning Network Analysis](https://lnrouter.app/)
+- [LN Node Insight: Advanced Node Metrics and Analysis](https://lnnodeinsight.com/)
+- [Lightning Watch: Real-Time Lightning Network Monitoring](https://lightning.watch/)
 
+## Channel Management
 
+### Channel Opening Suggestions
 
+- [Gridflare: AI-Powered Channel Recommendations](https://gridflare.xyz/explore/search)
+- [Moneni NodeMatch: Optimal Node Pairing](https://www.moneni.com/nodematch)
+- [Lightning Terminal: Channel Management Platform](https://terminal.lightning.engineering/#/)
+- [Lightning Network Autopilot: Automated Channel Management](https://github.com/renepickhardt/lightning-network-autopilot)
 
-Want to explore what is happening in lightning ecosystem check out [Lightning Landscape](https://www.lightning-landscape.net/projects).
+## Tutorials and Guides
 
-Curious whats happening with Discreet log contracts? There's [dlc.wiki](https://www.dlc.wiki).
+- [Lightning Node Management by Openoms: Comprehensive Guide](https://github.com/openoms/lightning-node-management)
+- [Bitcoin Tutorials by Openoms: In-Depth Learning Resources](https://github.com/openoms/bitcoin-tutorials)
+- [Node Liquidity Guide by Darthcoin: Mastering Liquidity Management](https://darthcoin.substack.com/p/node-liquidity-guide)
+- [Lightning Cleaning Machine by Darthcoin: Optimizing Node Performance](https://darthcoin.substack.com/p/lightning-cleaning-machine)
+- [Recovering Funds from Stuck Closing Transactions: Troubleshooting Guide](https://community.umbrel.com/t/the-guide-where-your-lightning-close-transaction-cant-get-the-channel-closed/15096)
 
-Wanna know what people are building on Nostr? [nostr.net](https://www.nostr.net) to the rescue.
+## Liquidity Management
 
-If you want to add something to the list please submit a [PR](https://github.com/aljazceru/lightning-network-node-operator).
+### Inbound Liquidity
+
+- [Comprehensive Inbound Liquidity Guide](https://github.com/openoms/lightning-node-management/blob/en/createinboundliquidity.md)
+
+### Swaps and Exchanges
+
+- [Coinos: Instant Bitcoin-to-Lightning Swaps](https://coinos.io/login)
+- [FixedFloat: Cryptocurrency Exchange with Lightning Support](https://fixedfloat.com/)
+- [SideShift: Automated Crypto Trading Platform](https://sideshift.ai/btc/ln)
+- [Deezy: Lightning Network Liquidity Provider](https://deezy.io/)
+- [Boltz Exchange: Non-Custodial Bitcoin Exchange](https://boltz.exchange/)
+- [Lightning Loop: Submarine Swaps for Liquidity Management](https://github.com/lightninglabs/loop)
+- [ZigZag: Fast Crypto Exchange with Lightning Support](https://zigzag.io/)
+
+### Liquidity Marketplaces
+
+- [Lightning Pool: Marketplace for Lightning Liquidity](https://lightning.engineering/pool/)
+- [Voltage Flow: Liquidity Management Platform](https://voltage.cloud/flow)
+- [Amboss Magma: Advanced Liquidity Marketplace](https://amboss.space/magma)
+
+### Channel Leasing and LSPs
+
+- [LNBIG: Large-Scale Lightning Network Service Provider](https://lnbig.com/)
+- [Lightning Conductor: Inbound Liquidity Service](https://mainnet.lightningconductor.net/)
+- [Lightning Network Plus (LN+): Collaborative Channel Opening](https://lightningnetwork.plus/)
+- [Lightning Conductor Channels: Custom Channel Creation](https://lightningconductor.net/channels)
+- [LightningTo.Me: Free Inbound Liquidity Service](https://lightningto.me/)
+- [Bitrefill Thor Channels: On-Demand Lightning Channels](https://www.bitrefill.com/buy/lightning-channel/)
+- [Voltage Flow: Automated Liquidity Management](https://voltage.cloud/flow/)
+- [Blocktank: Professional Lightning Service Provider](https://blocktank.to/)
+
+## Network Explorers
+
+- [1ML: Comprehensive Lightning Network Explorer](https://1ml.com/)
+- [Amboss Space: Advanced Lightning Network Analytics](https://amboss.space/)
+- [ACINQ Lightning Explorer: Real-Time Network Insights](https://explorer.acinq.co/)
+- [LN Lighthouse: Visual Lightning Network Explorer](https://lnlighthouse.online/)
+- [Bolt Observer Explorer: Detailed Network Analysis](https://bolt.observer/explorer)
+- [Mempool Lightning Explorer: Bitcoin and Lightning Integration](https://mempool.space/lightning)
+
+## Communities
+
+- [Lightning Liquidity & Pool Telegram Group](https://t.me/LNBalancedChannels)
+- [Plebnet Telegram Community](https://t.me/plebnet)
+- [Lightning Network Matrix Chat](https://matrix.to/#/#btcln:matrix.org)
+- [r/lightningnetwork Subreddit](https://www.reddit.com/r/lightningnetwork/)
+- [r/TheLightningNetwork Subreddit](https://www.reddit.com/r/TheLightningNetwork/)
+- [Rings of Fire Telegram Group](https://t.me/theRingsOfFire)
+- [Rings of Fire GitHub Wiki](https://github.com/Rings-of-Fire/ring-of-fire/wiki)
+- [Reddit Liquidity Swaps Thread](https://www.reddit.com/r/TheLightningNetwork/search?sort=new&restrict_sr=on&q=flair%3ALiquidity%2BSwaps)
+
+## Watchtowers
+
+- [The Eye of Satoshi: Rust-based Watchtower Implementation](https://github.com/talaia-labs/rust-teos)
+- [LND Watchtower: Built-in Watchtower Functionality](https://docs.lightning.engineering/lightning-network-tools/lnd/watchtower)
+
+## Mempool Resources
+
+- [Mempool.space: Real-Time Bitcoin Mempool Visualizer](https://mempool.space/)
+- [Bitcoin Explorer: Detailed Transaction and Block Explorer](https://bitcoinexplorer.org/)
+- [Johoe's Bitcoin Mempool Statistics: Historical Mempool Data](https://jochen-hoenicke.de/queue/#BTC,24h,weight)
+- [TX Street: Visual Bitcoin and Ethereum Transaction Monitor](https://txstreet.com/v/btc)
+
+## Educational Resources
+
+- [Lightning Curriculum by Chaincode Labs: Comprehensive Learning Path](https://github.com/chaincodelabs/lightning-curriculum)
+- [Mastering the Lightning Network: Open-Source Book](https://github.com/lnbook/lnbook)
+- [Professional Lightning Network Node Rebalancing Tutorial](https://www.youtube.com/watch?v=0r3Th42zfDk)
+- [Comprehensive Bitcoin Lightning Network Node Setup Tutorial](https://www.youtube.com/watch?v=KItleddMYFU)
+- [T-bast's Lightning Network Documentation](https://github.com/t-bast/lightning-docs)
+- [Interactive Lightning Network Workshop](https://github.com/roeierez/lightning-workshop)
+- [Cyberhub's Lightning Network Resources](https://cyberhubnode.notion.site/cyberhubnode/Cyberhub-Home-34858179510a44
+
+## Network Statistics
+
+- [1ML.com Lightning Network Statistics](https://1ml.com/statistics)
+- [Bitcoin Visuals - Lightning Network Metrics](https://bitcoinvisuals.com/lightning)
+
+## Further Reading
+
+- [Diamond Hands Lightning Network Routing Report](https://medium.com/@coin_and_peace/diamond-hands-lightning-routing-report-jan-2022-85733104fa8d)
+- [Jameson Lopp's Comprehensive Lightning Network Resource Collection](https://www.lopp.net/lightning-information.html)
+- [Lightning Landscape: Overview of Lightning Network Projects](https://www.lightning-landscape.net)
+- [LND Security Case Study: Recovering Funds from a Hacked Node](https://medium.com/@goryachev/bitcoin-node-security-case-study-e1ca00a378b5)
+
+## Related Resources
+
+To explore other aspects of the Bitcoin and freedom tech ecosystem, check out these additional resource directories:
+
+- [DLC.wiki](https://www.dlc.wiki): Everything you need to know about Discreet Log Contracts (DLCs), an innovative Bitcoin smart contract technology.
+- [Nostr.net](https://www.nostr.net): A complete guide to Nostr (Notes and Other Stuff Transmitted by Relays), including projects, implementations, and resources.
+- [Ungovernable.tech](https://ungovernable.tech): A curated collection of resources on encryption, privacy tools, and decentralized technologies.
+
+## Contributing
+
+If you'd like to add something to this list, please submit a [Pull Request on GitHub](https://github.com/aljazceru/lightning-network.tech).
+
+This resource guide is maintained by [@aaaljaz](https://twitter.com/aaaljaz) | [aljaz@nostr.si](https://nostr.at/npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp). Your contributions help keep this information up-to-date and valuable for the Lightning Network community.
