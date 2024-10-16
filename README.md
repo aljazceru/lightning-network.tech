@@ -218,7 +218,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Comprehensive Bitcoin Lightning Network Node Setup Tutorial](https://www.youtube.com/watch?v=KItleddMYFU)
 - [T-bast's Lightning Network Documentation](https://github.com/t-bast/lightning-docs)
 - [Interactive Lightning Network Workshop](https://github.com/roeierez/lightning-workshop)
-- [Cyberhub's Lightning Network Resources](https://cyberhubnode.notion.site/cyberhubnode/Cyberhub-Home-34858179510a44
+- [Cyberhub's Lightning Network Resources](https://cyberhubnode.notion.site/cyberhubnode/Cyberhub-Home-34858179510a44)
 
 ## Network Statistics
 
