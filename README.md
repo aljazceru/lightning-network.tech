@@ -244,4 +244,4 @@ To explore other aspects of the Bitcoin and freedom tech ecosystem, check out th
 
 If you'd like to add something to this list, please submit a [Pull Request on GitHub](https://github.com/aljazceru/lightning-network.tech).
 
-This resource guide is maintained by [@aaaljaz](https://twitter.com/aaaljaz) | [aljaz@nostr.si](https://nostr.at/npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp). Your contributions help keep this information up-to-date and valuable for the Lightning Network community.
+This resource guide is maintained by [aljaz](https://disobey.dev/contact/). Your contributions help keep this information up-to-date and valuable for the Lightning Network community.
