@@ -236,9 +236,9 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 To explore other aspects of the Bitcoin and freedom tech ecosystem, check out these additional resource directories:
 
-- [DLC.wiki](https://www.dlc.wiki): Everything you need to know about Discreet Log Contracts (DLCs), an innovative Bitcoin smart contract technology.
-- [Nostr.net](https://www.nostr.net): A complete guide to Nostr (Notes and Other Stuff Transmitted by Relays), including projects, implementations, and resources.
-- [Ungovernable.tech](https://ungovernable.tech): A curated collection of resources on encryption, privacy tools, and decentralized technologies.
+- [DLC.wiki](https://www.dlc.wiki) - Everything you need to know about Discreet Log Contracts (DLCs), an innovative Bitcoin smart contract technology.
+- [Nostr.net](https://www.nostr.net) - A complete guide to Nostr (Notes and Other Stuff Transmitted by Relays), including projects, implementations, and resources.
+- [Ungovernable.tech](https://ungovernable.tech) - A curated collection of resources on encryption, privacy tools, and decentralized technologies.
 - [pubkey.tech](https://pubkey.tech) - Pubky resources, libraries, tools and applications. Pubky is an open protocol for per-public-key backends for censorship resistant web applications
 
 ## Contributing
