@@ -230,7 +230,6 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 - [Diamond Hands Lightning Network Routing Report](https://medium.com/@coin_and_peace/diamond-hands-lightning-routing-report-jan-2022-85733104fa8d)
 - [Jameson Lopp's Comprehensive Lightning Network Resource Collection](https://www.lopp.net/lightning-information.html)
-- [Lightning Landscape: Overview of Lightning Network Projects](https://www.lightning-landscape.net)
 - [LND Security Case Study: Recovering Funds from a Hacked Node](https://medium.com/@goryachev/bitcoin-node-security-case-study-e1ca00a378b5)
 
 ## Related Resources
