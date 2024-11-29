@@ -235,12 +235,12 @@ This guide provides a comprehensive list of resources for Lightning Network node
 ## Related Resources
 
 To explore other aspects of the Bitcoin and freedom tech ecosystem, check out these additional resource directories:
-
+- [nostr.net](https://www.nostr.net) - A complete guide to Nostr, including projects, implementations, developer tools and all other resources
 - [liquidnetwork.wiki](https://liquidnetwork.wiki) - A curated list of Liquid Network resources, libraries, tools and applications
 - [pubky.tech](https://pubky.tech) - Pubky, an open protocol for censorship resistant web applications
-- [dlc.wiki](https://www.dlc.wiki) - Everything you need to know about Discreet Log Contracts,
-- [nostr.net](https://www.nostr.net) - A complete guide to Nostr, including projects, implementations, developer tools and all other resources
+- [dlc.wiki](https://www.dlc.wiki) - Everything you need to know about Discreet Log Contracts
 - [ungovernable.tech](https://ungovernable.tech) - A collection of resources on encryption, privacy tools, and decentralized technologies
+- [lightning-network.tech](https://www.lightning-network.tech/)  - Essential tools, guides, and communities for Bitcoin Lightning Network node operators.
 
 ## Contributing
 
