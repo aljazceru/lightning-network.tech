@@ -241,9 +241,10 @@ To explore other aspects of the Bitcoin and freedom tech ecosystem, check out th
 - [dlc.wiki](https://www.dlc.wiki) - Everything you need to know about Discreet Log Contracts
 - [ungovernable.tech](https://ungovernable.tech) - A collection of resources on encryption, privacy tools, and decentralized technologies
 - [lightning-network.tech](https://www.lightning-network.tech/)  - Essential tools, guides, and communities for Bitcoin Lightning Network node operators.
+- [ark-protocol.com](https://ark-protocol.com) - A directory of Ark protocol resources, libraries, tools and applications
 
 ## Contributing
 
 If you'd like to add something to this list, please submit a [Pull Request on GitHub](https://github.com/aljazceru/lightning-network.tech).
 
-This resource guide is maintained by [aljaz](https://disobey.dev/contact/). Your contributions help keep this information up-to-date and valuable for the Lightning Network community.
+This directory is maintained by [aljaz](https://disobey.dev/contact/). Your contributions help keep this information up-to-date and valuable for the Lightning Network community.
