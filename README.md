@@ -73,7 +73,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 - [Nodl: Professional Bitcoin & Lightning Node Solutions](https://www.nodl.eu/)
 - [Voltage: Cloud-Native Bitcoin Infrastructure](https://voltage.cloud/)
-- [Tidebinder: Managed Lightning Network Node Hosting](https://www.tidebinder.com)
+- [Rizful: Instant Lightning Node](https://rizful.com/)
 
 ## Lightning Network Implementations
 
