@@ -37,7 +37,6 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Lightning Network Node Profitability: PLEBNET Insights](https://www.youtube.com/watch?v=LRZy-VtCPe4)
 - [Running a Lightning Network Node: A Beginner's Journey](https://medium.com/coinmonks/adventures-in-running-a-bitcoin-lightning-node-part-1-the-awakening-61345585acc3)
 - [Mastering Inbound Liquidity: Step-by-Step Guide](https://www.youtube.com/watch?v=WWs1D9LLcpc)
-- [Build a Pretty Good Lightning Network Node by Blockstream](https://blog.blockstream.com/build-a-pretty-good-lightning-network-node/)
 
 ## Node Installation
 
