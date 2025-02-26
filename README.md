@@ -143,8 +143,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 - [Lightning Node Management by Openoms: Comprehensive Guide](https://github.com/openoms/lightning-node-management)
 - [Bitcoin Tutorials by Openoms: In-Depth Learning Resources](https://github.com/openoms/bitcoin-tutorials)
-- [Node Liquidity Guide by Darthcoin: Mastering Liquidity Management](https://darthcoin.substack.com/p/node-liquidity-guide)
-- [Lightning Cleaning Machine by Darthcoin: Optimizing Node Performance](https://darthcoin.substack.com/p/lightning-cleaning-machine)
+- [Lightning node tutorials by DarthCoin](https://darth-coin.github.io/nodes/nodes-en.html)
 - [Recovering Funds from Stuck Closing Transactions: Troubleshooting Guide](https://community.umbrel.com/t/the-guide-where-your-lightning-close-transaction-cant-get-the-channel-closed/15096)
 
 ## Liquidity Management
