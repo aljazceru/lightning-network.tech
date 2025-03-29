@@ -99,8 +99,6 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 ## Node Management Tools
 
-- [LN-Charts: Visualization Tool for Lightning Network Data](https://github.com/cold-sats/ln-charts)
-
 ### CLN Tools 
 - [CLN Cheatsheet: Quick Reference for Core Lightning Commands](https://github.com/grubles/cln-cheatsheet)
 - [lnurl-commando](https://github.com/jb55/lnurl-commando) - An lnurl/lnaddress server that fetches invoices over commando
