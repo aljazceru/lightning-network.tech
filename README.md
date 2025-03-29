@@ -145,6 +145,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Bitcoin Tutorials by Openoms: In-Depth Learning Resources](https://github.com/openoms/bitcoin-tutorials)
 - [Lightning node tutorials by DarthCoin](https://darth-coin.github.io/nodes/nodes-en.html)
 - [Recovering Funds from Stuck Closing Transactions: Troubleshooting Guide](https://community.umbrel.com/t/the-guide-where-your-lightning-close-transaction-cant-get-the-channel-closed/15096)
+- [Autoswap to Automate Your Lightning Liquidity Management with Boltz Client](https://blog.boltz.exchange/p/guide-how-to-use-boltz-clients-autoswap)
 
 ## Liquidity Management
 
@@ -157,8 +158,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Coinos: Instant Bitcoin-to-Lightning Swaps](https://coinos.io/login)
 - [FixedFloat: Cryptocurrency Exchange with Lightning Support](https://fixedfloat.com/)
 - [SideShift: Automated Crypto Trading Platform](https://sideshift.ai/btc/ln)
-- [Deezy: Lightning Network Liquidity Provider](https://deezy.io/)
-- [Boltz Exchange: Non-Custodial Bitcoin Exchange](https://boltz.exchange/)
+- [Boltz Exchange: Non-Custodial Bitcoin Exchange](https://boltz.exchange/) - swaps LN, BTC, L-BTC
 - [Lightning Loop: Submarine Swaps for Liquidity Management](https://github.com/lightninglabs/loop)
 - [ZigZag: Fast Crypto Exchange with Lightning Support](https://zigzag.io/)
 
@@ -185,7 +185,6 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Amboss Space: Advanced Lightning Network Analytics](https://amboss.space/)
 - [ACINQ Lightning Explorer: Real-Time Network Insights](https://explorer.acinq.co/)
 - [LN Lighthouse: Visual Lightning Network Explorer](https://lnlighthouse.online/)
-- [Bolt Observer Explorer: Detailed Network Analysis](https://bolt.observer/explorer)
 - [Mempool Lightning Explorer: Bitcoin and Lightning Integration](https://mempool.space/lightning)
 
 ## Communities
