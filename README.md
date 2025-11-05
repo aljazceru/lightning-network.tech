@@ -144,6 +144,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Lightning node tutorials by DarthCoin](https://darth-coin.github.io/nodes/nodes-en.html)
 - [Recovering Funds from Stuck Closing Transactions: Troubleshooting Guide](https://community.umbrel.com/t/the-guide-where-your-lightning-close-transaction-cant-get-the-channel-closed/15096)
 - [Autoswap to Automate Your Lightning Liquidity Management with Boltz Client](https://blog.boltz.exchange/p/guide-how-to-use-boltz-clients-autoswap)
+- [Chantools command generator - helps you do recover funds from broken nodes](https://guggero.github.io/chantools/doc/command-generator.html) -
 
 ## Liquidity Management
 
