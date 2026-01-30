@@ -96,6 +96,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Validated Lightning Signer: Enhanced Security for Lightning Nodes](https://vls.tech/)
 - [Sphinx Key: Hardware Security Module for Lightning](https://github.com/stakwork/sphinx-key)
 - [Lightning Vault: Secure Key Management Solution](https://github.com/bolt-observer/lightning-vault/)
+- [DhananjayPurohit/ngx_l402](https://github.com/DhananjayPurohit/ngx_l402) - nginx module for L402 authentication to enable Lightning Network-based API monetization
 
 ## Node Management Tools
 
@@ -120,6 +121,8 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [LNTop: Top-like Monitoring Tool for LND](https://github.com/edouardparis/lntop)
 - [Suez: Channel Rebalancing Script](https://github.com/prusnak/suez)
 - [LND-ManageJ: Java-based LND Management Tool](https://github.com/C-Otto/lnd-manageJ)
+- [toneloc/stable-channels](https://github.com/toneloc/stable-channels) - p2p stable channels on the Bitcoin Lightning Network
+- [block/ln-invoice](https://github.com/block/ln-invoice) - Parse lightning network payment requests (invoices) in Kotlin
 
 
 ## Node Services
@@ -127,6 +130,9 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [LNRouter: Comprehensive Lightning Network Analysis](https://lnrouter.app/)
 - [LN Node Insight: Advanced Node Metrics and Analysis](https://lnnodeinsight.com/)
 - [Lightning Watch: Real-Time Lightning Network Monitoring](https://lightning.watch/)
+- [KlosStepan/Lightning-map](https://github.com/KlosStepan/Lightning-map) - Lightning Everywhere ⚡ A platform for collecting spots and e-shops that accept the Lightning Network (Bitcoin L2) as a payment method
+- [lnp2pBot/bot](https://github.com/lnp2pBot/bot) - Peer-to-peer lightning network telegram bot
+- [MostroP2P/mostro](https://github.com/MostroP2P/mostro) - Lightning Network peer-to-peer exchange platform on Nostr
 
 ## Channel Management
 
