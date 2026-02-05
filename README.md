@@ -14,20 +14,21 @@ This guide provides a comprehensive list of resources for Lightning Network node
 4. [Self-Hosting Solutions](#self-hosting-solutions)
 5. [Managed Cloud Hosting](#managed-cloud-hosting)
 6. [Lightning Network Implementations](#lightning-network-implementations)
-7. [Node Management Web Interfaces](#node-management-web-interfaces)
-8. [Security Tools](#security-tools)
-9. [Node Management Tools](#node-management-tools)
-10. [Node Services](#node-services)
-11. [Channel Management](#channel-management)
-12. [Tutorials and Guides](#tutorials-and-guides)
-13. [Liquidity Management](#liquidity-management)
-14. [Network Explorers](#network-explorers)
-15. [Communities](#communities)
-16. [Watchtowers](#watchtowers)
-17. [Mempool Resources](#mempool-resources)
-18. [Educational Resources](#educational-resources)
-19. [Network Statistics](#network-statistics)
-20. [Further Reading](#further-reading)
+7. [Lightning Wallets](#lightning-wallets)
+8. [Node Management Web Interfaces](#node-management-web-interfaces)
+9. [Security Tools](#security-tools)
+10. [Node Management Tools](#node-management-tools)
+11. [Node Services](#node-services)
+12. [Channel Management](#channel-management)
+13. [Tutorials and Guides](#tutorials-and-guides)
+14. [Liquidity Management](#liquidity-management)
+15. [Network Explorers](#network-explorers)
+16. [Communities](#communities)
+17. [Watchtowers](#watchtowers)
+18. [Mempool Resources](#mempool-resources)
+19. [Educational Resources](#educational-resources)
+20. [Network Statistics](#network-statistics)
+21. [Further Reading](#further-reading)
 
 ## Essential Reading
 
@@ -82,6 +83,13 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Eclair: Scala-based Lightning Implementation](https://github.com/ACINQ/eclair)
 - [LDK-node](https://github.com/lightningdevkit/ldk-node)
 
+## Lightning Wallets
+
+- [Alby Hub: Self-Custodial Lightning Wallet](https://albyhub.com/) - Easy channel management, sub-wallets, and direct app connections built with LDK
+- [Alby Go: Mobile Lightning Wallet](https://albygo.com/) - Simple mobile Lightning wallet for payments on the go
+- [Zeus: Mobile Bitcoin and Lightning Wallet](https://zeusln.com/) - Feature-rich mobile wallet for LND, CLN, and Eclair
+- [Phoenix: Self-Custodial Mobile Wallet](https://phoenix.acinq.co/) - User-friendly mobile wallet by ACINQ
+
 ## Node Management Web Interfaces
 
 - [Ride The Lightning (RTL): Feature-Rich Web Interface](https://github.com/Ride-The-Lightning/RTL)
@@ -123,6 +131,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [LND-ManageJ: Java-based LND Management Tool](https://github.com/C-Otto/lnd-manageJ)
 - [toneloc/stable-channels](https://github.com/toneloc/stable-channels) - p2p stable channels on the Bitcoin Lightning Network
 - [block/ln-invoice](https://github.com/block/ln-invoice) - Parse lightning network payment requests (invoices) in Kotlin
+- [LndHub.go: Accounting Wrapper for Lightning Network](https://github.com/getAlby/lndhub.go) - Go implementation providing separate accounts for end-users, enabling multi-user Lightning applications
 
 
 ## Node Services
@@ -224,6 +233,9 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [T-bast's Lightning Network Documentation](https://github.com/t-bast/lightning-docs)
 - [Interactive Lightning Network Workshop](https://github.com/roeierez/lightning-workshop)
 - [Cyberhub's Lightning Network Resources](https://cyberhubnode.notion.site/cyberhubnode/Cyberhub-Home-34858179510a44)
+- [WebLN Guide: Building Lightning-Powered Web Apps](https://www.webln.guide/) - Complete guide to building web applications with WebLN
+- [Bitcoin Connect: Lightning Wallet Connection Library](https://bitcoin-connect.com) - Enable WebLN wallet connections in any browser without extensions
+- [Nostr Wallet Connect (NWC): Protocol for Connecting Wallets to Apps](https://nwc.dev) - Open protocol for sustained wallet-app interaction over Nostr (NIP-47)
 
 ## Network Statistics
 
