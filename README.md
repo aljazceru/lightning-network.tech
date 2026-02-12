@@ -15,19 +15,20 @@ This guide provides a comprehensive list of resources for Lightning Network node
 5. [Managed Cloud Hosting](#managed-cloud-hosting)
 6. [Lightning Network Implementations](#lightning-network-implementations)
 7. [Lightning Wallets](#lightning-wallets)
-8. [Node Management Web Interfaces](#node-management-web-interfaces)
-9. [Security Tools](#security-tools)
-10. [Node Management Tools](#node-management-tools)
-11. [Node Services](#node-services)
-12. [Channel Management](#channel-management)
-13. [Tutorials and Guides](#tutorials-and-guides)
-14. [Liquidity Management](#liquidity-management)
-15. [Network Explorers](#network-explorers)
-16. [Communities](#communities)
-17. [Watchtowers](#watchtowers)
-18. [Mempool Resources](#mempool-resources)
-19. [Educational Resources](#educational-resources)
-20. [Network Statistics](#network-statistics)
+8. [Ecash & Privacy Tools](#ecash--privacy-tools)
+9. [Node Management Web Interfaces](#node-management-web-interfaces)
+10. [Security Tools](#security-tools)
+11. [Node Management Tools](#node-management-tools)
+12. [Node Services](#node-services)
+13. [Channel Management](#channel-management)
+14. [Tutorials and Guides](#tutorials-and-guides)
+15. [Liquidity Management](#liquidity-management)
+16. [Network Explorers](#network-explorers)
+17. [Communities](#communities)
+18. [Watchtowers](#watchtowers)
+19. [Mempool Resources](#mempool-resources)
+20. [Educational Resources](#educational-resources)
+21. [Network Statistics](#network-statistics)
 21. [Further Reading](#further-reading)
 
 ## Essential Reading
@@ -89,6 +90,20 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Alby Go: Mobile Lightning Wallet](https://albygo.com/) - Simple mobile Lightning wallet for payments on the go
 - [Zeus: Mobile Bitcoin and Lightning Wallet](https://zeusln.com/) - Feature-rich mobile wallet for LND, CLN, and Eclair
 - [Phoenix: Self-Custodial Mobile Wallet](https://phoenix.acinq.co/) - User-friendly mobile wallet by ACINQ
+
+## Ecash & Privacy Tools
+
+### Cashu - Chaumian Ecash for Bitcoin
+
+Cashu is a free and open-source Chaumian ecash system built for Bitcoin, offering enhanced privacy and instant transactions through Lightning Network integration.
+
+- [Cashu Nutshell](https://github.com/cashubtc/nutshell) - Python-based Chaumian ecash wallet and mint implementation for Bitcoin with Lightning Network support
+- [eNuts](https://github.com/cashubtc/eNuts) - Mobile Cashu wallet for Android and iOS with intuitive interface for managing ecash tokens
+- [Cashu.me](https://cashu.me) - Web-based PWA Cashu wallet for browser-based ecash management
+- [Numo](https://github.com/cashubtc/Numo) - Point-of-Sale application combining Cashu ecash and Lightning Network payments
+- [BTCNutServer](https://github.com/cashubtc/BTCNutServer) - Cashu plugin for BTCPayServer enabling merchants to accept Cashu ecash as payment
+- [Cashu Development Kit (CDK)](https://github.com/cashubtc/cdk) - Rust library for building Cashu wallets and mints
+- [Awesome Cashu](https://github.com/cashubtc/awesome-cashu) - Curated list of Cashu resources, wallets, and tools
 
 ## Node Management Web Interfaces
 
