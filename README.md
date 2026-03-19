@@ -47,12 +47,11 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Bitcoin Kit Makefile: Streamlined Installation](https://github.com/Perlover/bitcoin-kit-makefile)
 - [LND with PostgreSQL Integration](https://github.com/blckbx/lnd_postgres)
 - [Secure LND Setup via VPN](https://github.com/Wired4ncer/lnd_via_vpn)
-- [The Road to Node: Detailed LND Setup Guide](https://docs.theroadtonode.com/)
+
 
 ### CLN (Core Lightning)
 
 - [Video Tutorial: Step-by-Step CLN Installation](https://www.youtube.com/watch?v=_Hrnls92TxQ)
-- [Rootzoll's Comprehensive CLN Guide](https://github.com/rootzoll/raspiblitz/blob/dev/FAQ.cl.md)
 - [RaspiBolt CLN Installation and Configuration](https://raspibolt.org/guide/bonus/lightning/cln.html)
 - [Core Lightning Plugins Repository](https://github.com/lightningd/plugins)
 
@@ -132,8 +131,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 ### Channel Opening Suggestions
 
-- [Gridflare: AI-Powered Channel Recommendations](https://gridflare.xyz/explore/search)
-- [Moneni NodeMatch: Optimal Node Pairing](https://www.moneni.com/nodematch)
+
 - [Lightning Terminal: Channel Management Platform](https://terminal.lightning.engineering/#/)
 - [Lightning Network Autopilot: Automated Channel Management](https://github.com/renepickhardt/lightning-network-autopilot)
 
@@ -150,7 +148,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 ### Inbound Liquidity
 
-- [Comprehensive Inbound Liquidity Guide](https://github.com/openoms/lightning-node-management/blob/en/createinboundliquidity.md)
+- [Comprehensive Inbound Liquidity Guide](https://github.com/openoms/lightning-node-management/blob/master/docs/createinboundliquidity.md)
 
 ### Swaps and Exchanges
 
@@ -170,9 +168,8 @@ This guide provides a comprehensive list of resources for Lightning Network node
 ### Channel Leasing and LSPs
 
 - [LNBIG: Large-Scale Lightning Network Service Provider](https://lnbig.com/)
-- [Lightning Conductor: Inbound Liquidity Service](https://mainnet.lightningconductor.net/)
 - [Lightning Network Plus (LN+): Collaborative Channel Opening](https://lightningnetwork.plus/)
-- [Lightning Conductor Channels: Custom Channel Creation](https://lightningconductor.net/channels)
+
 - [LightningTo.Me: Free Inbound Liquidity Service](https://lightningto.me/)
 - [Bitrefill Thor Channels: On-Demand Lightning Channels](https://www.bitrefill.com/buy/lightning-channel/)
 - [Voltage Flow: Automated Liquidity Management](https://voltage.cloud/flow/)
@@ -182,7 +179,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 - [1ML: Comprehensive Lightning Network Explorer](https://1ml.com/)
 - [Amboss Space: Advanced Lightning Network Analytics](https://amboss.space/)
-- [ACINQ Lightning Explorer: Real-Time Network Insights](https://explorer.acinq.co/)
+
 - [LN Lighthouse: Visual Lightning Network Explorer](https://lnlighthouse.online/)
 - [Mempool Lightning Explorer: Bitcoin and Lightning Integration](https://mempool.space/lightning)
 
@@ -205,7 +202,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 ## Mempool Resources
 
 - [Mempool.space: Real-Time Bitcoin Mempool Visualizer](https://mempool.space/)
-- [Bitcoin Explorer: Detailed Transaction and Block Explorer](https://bitcoinexplorer.org/)
+
 - [Johoe's Bitcoin Mempool Statistics: Historical Mempool Data](https://jochen-hoenicke.de/queue/#BTC,24h,weight)
 - [TX Street: Visual Bitcoin and Ethereum Transaction Monitor](https://txstreet.com/v/btc)
 
