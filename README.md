@@ -67,6 +67,9 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [MyNode: Full Bitcoin Node & Lightning Network Box](https://mynodebtc.com/)
 - [NixBitcoin: Nix-based Bitcoin Node](https://nixbitcoin.org/)
 - [Blockstream's Guide: Building a High-Quality Lightning Network Node](https://medium.com/blockstream/build-a-pretty-good-lightning-network-node-468778a078b7)
+- [Minibolt: Step-by-Step Guide to Building a Bitcoin & Lightning Node](https://github.com/minibolt-guide/minibolt)
+- [Awning: Portable Docker-Only Bitcoin + Lightning Node](https://github.com/giovantenne/awning)
+- [TunnelSats: Pre-Configured VPN for Lightning Nodes](https://github.com/Tunnelsats/tunnelsats)
 
 ## Managed Cloud Hosting
 
@@ -80,6 +83,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Core Lightning (formerly c-lightning)](https://github.com/ElementsProject/lightning)
 - [Eclair: Scala-based Lightning Implementation](https://github.com/ACINQ/eclair)
 - [LDK-node](https://github.com/lightningdevkit/ldk-node)
+- [LDK Server: Fully-Functional Lightning Node Daemon](https://github.com/lightningdevkit/ldk-server)
 
 ## Node Management Web Interfaces
 
@@ -89,12 +93,16 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Lightning Terminal: All-in-One Node Management Tool](https://github.com/lightninglabs/lightning-terminal)
 - [LNDG: LND Dashboard and Graph](https://github.com/cryptosharks131/lndg)
 - [Torq: Advanced Lightning Network Management Platform](https://github.com/lncapital/torq)
+- [LNbits: Free and Open-Source Lightning Wallet and Accounts System](https://github.com/lnbits/lnbits)
+- [Bitcoin Connect: Enable WebLN in All Browsers with a Single Button](https://github.com/getAlby/bitcoin-connect)
 
 ## Security Tools
 
 - [Validated Lightning Signer: Enhanced Security for Lightning Nodes](https://vls.tech/)
 - [Sphinx Key: Hardware Security Module for Lightning](https://github.com/stakwork/sphinx-key)
 - [Lightning Vault: Secure Key Management Solution](https://github.com/bolt-observer/lightning-vault/)
+- [Validating Lightning Signer (VLS): Library for Securing Lightning Nodes](https://github.com/lightning-signer/validating-lightning-signer)
+- [ngx_l402: Nginx Module for L402 Lightning Network Authentication](https://github.com/DhananjayPurohit/ngx_l402)
 
 ## Node Management Tools
 
@@ -106,6 +114,8 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [c-lightning-REST](https://github.com/Ride-The-Lightning/c-lightning-REST) - REST APIs for c-lightning written with node.js
 - [circular](https://github.com/giovannizotta/circular) - Core Lightning plugin that helps routing nodes rebalance their channels 
 - [consolidator](https://github.com/daywalker90/consolidator/) - Core lightning (CLN) plugin to help consolidate your UTXO's
+- [sling](https://github.com/daywalker90/sling) - Core Lightning plugin to automatically rebalance multiple channels
+- [nostrify](https://github.com/joelklabo/nostrify) - Core Lightning plugin that sends events to Nostr
 
 ### LND Tools
 - [Balance of Satoshis: Advanced Node Management Toolkit](https://github.com/alexbosworth/balanceofsatoshis)
@@ -119,6 +129,10 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [LNTop: Top-like Monitoring Tool for LND](https://github.com/edouardparis/lntop)
 - [Suez: Channel Rebalancing Script](https://github.com/prusnak/suez)
 - [LND-ManageJ: Java-based LND Management Tool](https://github.com/C-Otto/lnd-manageJ)
+- [LNDmon: Drop-in LND Monitoring with Prometheus+Grafana](https://github.com/lightninglabs/lndmon)
+- [LNC Web: Lightning Node Connect for Web Applications](https://github.com/lightninglabs/lnc-web)
+- [LNDinit: Cloud Infrastructure Tooling for LND Provisioning](https://github.com/lightninglabs/lndinit)
+- [LndHub.go: Accounting Wrapper for Lightning Network (LndHub Compatible)](https://github.com/getAlby/lndhub.go)
 
 
 ## Node Services
@@ -126,6 +140,8 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [LNRouter: Comprehensive Lightning Network Analysis](https://lnrouter.app/)
 - [LN Node Insight: Advanced Node Metrics and Analysis](https://lnnodeinsight.com/)
 - [Lightning Watch: Real-Time Lightning Network Monitoring](https://lightning.watch/)
+- [Alby Hub: Your Own Bitcoin Lightning Node](https://github.com/getAlby/hub)
+- [Lightning.Pub: Nostr Native Lightning Node](https://github.com/shocknet/Lightning.Pub)
 
 ## Channel Management
 
@@ -134,6 +150,8 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 - [Lightning Terminal: Channel Management Platform](https://terminal.lightning.engineering/#/)
 - [Lightning Network Autopilot: Automated Channel Management](https://github.com/renepickhardt/lightning-network-autopilot)
+- [Faraday: Lightning Channel Management & Optimization Tool](https://github.com/lightninglabs/faraday)
+- [PeerSwap Web: Lightweight Web UI for PeerSwap](https://github.com/Impa10r/peerswap-web)
 
 ## Tutorials and Guides
 
@@ -157,11 +175,13 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [SideShift: Automated Crypto Trading Platform](https://sideshift.ai/btc/ln)
 - [Boltz Exchange: Non-Custodial Bitcoin Exchange](https://boltz.exchange/) - swaps LN, BTC, L-BTC
 - [Lightning Loop: Submarine Swaps for Liquidity Management](https://github.com/lightninglabs/loop)
+- [Boltz Client: Non-Custodial Swap Client for CLN & LND](https://github.com/BoltzExchange/boltz-client)
 - [ZigZag: Fast Crypto Exchange with Lightning Support](https://zigzag.io/)
 
 ### Liquidity Marketplaces
 
 - [Lightning Pool: Marketplace for Lightning Liquidity](https://lightning.engineering/pool/)
+- [Lightning Pool: Non-Custodial Batched Channel Lease Auction](https://github.com/lightninglabs/pool)
 - [Voltage Flow: Liquidity Management Platform](https://voltage.cloud/flow)
 - [Amboss Magma: Advanced Liquidity Marketplace](https://amboss.space/magma)
 
@@ -192,6 +212,8 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [r/TheLightningNetwork Subreddit](https://www.reddit.com/r/TheLightningNetwork/)
 - [Rings of Fire Telegram Group](https://t.me/theRingsOfFire)
 - [Rings of Fire GitHub Wiki](https://github.com/Rings-of-Fire/ring-of-fire/wiki)
+- [LnP2P Bot: Peer-to-Peer Lightning Network Telegram Bot](https://github.com/lnp2pBot/bot)
+- [Mostro: Lightning Network P2P Exchange on Nostr](https://github.com/MostroP2P/mostro)
 - [Reddit Liquidity Swaps Thread](https://www.reddit.com/r/TheLightningNetwork/search?sort=new&restrict_sr=on&q=flair%3ALiquidity%2BSwaps)
 
 ## Watchtowers
