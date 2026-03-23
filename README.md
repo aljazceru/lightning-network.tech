@@ -93,7 +93,6 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Lightning Terminal: All-in-One Node Management Tool](https://github.com/lightninglabs/lightning-terminal)
 - [LNDG: LND Dashboard and Graph](https://github.com/cryptosharks131/lndg)
 - [Torq: Advanced Lightning Network Management Platform](https://github.com/lncapital/torq)
-- [LNbits: Free and Open-Source Lightning Wallet and Accounts System](https://github.com/lnbits/lnbits)
 - [Bitcoin Connect: Enable WebLN in All Browsers with a Single Button](https://github.com/getAlby/bitcoin-connect)
 
 ## Security Tools
@@ -212,8 +211,6 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [r/TheLightningNetwork Subreddit](https://www.reddit.com/r/TheLightningNetwork/)
 - [Rings of Fire Telegram Group](https://t.me/theRingsOfFire)
 - [Rings of Fire GitHub Wiki](https://github.com/Rings-of-Fire/ring-of-fire/wiki)
-- [LnP2P Bot: Peer-to-Peer Lightning Network Telegram Bot](https://github.com/lnp2pBot/bot)
-- [Mostro: Lightning Network P2P Exchange on Nostr](https://github.com/MostroP2P/mostro)
 - [Reddit Liquidity Swaps Thread](https://www.reddit.com/r/TheLightningNetwork/search?sort=new&restrict_sr=on&q=flair%3ALiquidity%2BSwaps)
 
 ## Watchtowers
