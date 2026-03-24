@@ -76,6 +76,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Nodl: Professional Bitcoin & Lightning Node Solutions](https://www.nodl.eu/)
 - [Voltage: Cloud-Native Bitcoin Infrastructure](https://voltage.cloud/)
 - [Rizful: Instant Lightning Node](https://rizful.com/)
+- [Greenlight](https://github.com/Blockstream/greenlight)![stars](https://img.shields.io/github/stars/Blockstream/greenlight.svg?style=social) - Build apps using self-custodial lightning nodes in the cloud — Blockstream's hosted Lightning node service
 
 ## Lightning Network Implementations
 
@@ -84,6 +85,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Eclair: Scala-based Lightning Implementation](https://github.com/ACINQ/eclair)
 - [LDK-node](https://github.com/lightningdevkit/ldk-node)
 - [LDK Server: Fully-Functional Lightning Node Daemon](https://github.com/lightningdevkit/ldk-server)
+- [lightning-kmp](https://github.com/ACINQ/lightning-kmp)![stars](https://img.shields.io/github/stars/ACINQ/lightning-kmp.svg?style=social) - Kotlin Multiplatform implementation of the Lightning Network — build Lightning apps for Android, iOS, Desktop, and Web
 
 ## Node Management Web Interfaces
 
@@ -102,6 +104,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Lightning Vault: Secure Key Management Solution](https://github.com/bolt-observer/lightning-vault/)
 - [Validating Lightning Signer (VLS): Library for Securing Lightning Nodes](https://github.com/lightning-signer/validating-lightning-signer)
 - [ngx_l402: Nginx Module for L402 Lightning Network Authentication](https://github.com/DhananjayPurohit/ngx_l402)
+- [smite](https://github.com/morehouse/smite)![stars](https://img.shields.io/github/stars/morehouse/smite.svg?style=social) - Snapshot fuzzing for the Bitcoin Lightning Network — testing tool for LN protocol implementations
 
 ## Node Management Tools
 
@@ -115,6 +118,8 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [consolidator](https://github.com/daywalker90/consolidator/) - Core lightning (CLN) plugin to help consolidate your UTXO's
 - [sling](https://github.com/daywalker90/sling) - Core Lightning plugin to automatically rebalance multiple channels
 - [nostrify](https://github.com/joelklabo/nostrify) - Core Lightning plugin that sends events to Nostr
+- [clnrod](https://github.com/daywalker90/clnrod)![stars](https://img.shields.io/github/stars/daywalker90/clnrod.svg?style=social) - CLN plugin to allow/deny incoming channel opens based on lists and/or custom rules
+- [vitality](https://github.com/daywalker90/vitality)![stars](https://img.shields.io/github/stars/daywalker90/vitality.svg?style=social) - CLN plugin to watch channel health, gossip health, and ping Amboss for online status
 
 ### LND Tools
 - [Balance of Satoshis: Advanced Node Management Toolkit](https://github.com/alexbosworth/balanceofsatoshis)
@@ -133,6 +138,10 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [LNDinit: Cloud Infrastructure Tooling for LND Provisioning](https://github.com/lightninglabs/lndinit)
 - [LndHub.go: Accounting Wrapper for Lightning Network (LndHub Compatible)](https://github.com/getAlby/lndhub.go)
 
+### General Tools
+- [Polar](https://github.com/jamaljsr/polar)![stars](https://img.shields.io/github/stars/jamaljsr/polar.svg?style=social) - One-click Bitcoin Lightning networks for local app development and testing
+- [NodeGuard](https://github.com/Elenpay/NodeGuard)![stars](https://img.shields.io/github/stars/Elenpay/NodeGuard.svg?style=social) - Treasury management solution for Lightning nodes — automated on-chain reserve monitoring and management
+
 
 ## Node Services
 
@@ -141,6 +150,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Lightning Watch: Real-Time Lightning Network Monitoring](https://lightning.watch/)
 - [Alby Hub: Your Own Bitcoin Lightning Node](https://github.com/getAlby/hub)
 - [Lightning.Pub: Nostr Native Lightning Node](https://github.com/shocknet/Lightning.Pub)
+- [twelvecash](https://github.com/ATLBitLab/twelvecash)![stars](https://img.shields.io/github/stars/ATLBitLab/twelvecash.svg?style=social) - API for creating BIP-353 usernames — Lightning address/payment identifier service
 
 ## Channel Management
 
@@ -151,6 +161,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Lightning Network Autopilot: Automated Channel Management](https://github.com/renepickhardt/lightning-network-autopilot)
 - [Faraday: Lightning Channel Management & Optimization Tool](https://github.com/lightninglabs/faraday)
 - [PeerSwap Web: Lightweight Web UI for PeerSwap](https://github.com/Impa10r/peerswap-web)
+- [stable-channels](https://github.com/toneloc/stable-channels)![stars](https://img.shields.io/github/stars/toneloc/stable-channels.svg?style=social) - P2P stable channels on the Bitcoin Lightning Network — protocol for stable-coin-like channels using BTC collateral
 
 ## Tutorials and Guides
 
@@ -194,6 +205,11 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Voltage Flow: Automated Liquidity Management](https://voltage.cloud/flow/)
 - [Blocktank: Professional Lightning Service Provider](https://blocktank.to/)
 
+### Peer-to-Peer Exchanges
+
+- [Mostro](https://github.com/MostroP2P/mostro)![stars](https://img.shields.io/github/stars/MostroP2P/mostro.svg?style=social) - Lightning Network peer-to-peer exchange platform on Nostr — decentralized BTC trading via Lightning
+- [lnp2pBot](https://github.com/lnp2pBot/bot)![stars](https://img.shields.io/github/stars/lnp2pBot/bot.svg?style=social) - Peer-to-peer lightning network Telegram bot — buy and sell Bitcoin via Lightning directly in Telegram
+
 ## Network Explorers
 
 - [1ML: Comprehensive Lightning Network Explorer](https://1ml.com/)
@@ -201,6 +217,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 - [LN Lighthouse: Visual Lightning Network Explorer](https://lnlighthouse.online/)
 - [Mempool Lightning Explorer: Bitcoin and Lightning Integration](https://mempool.space/lightning)
+- [lightning-decoder](https://github.com/andrerfneves/lightning-decoder)![stars](https://img.shields.io/github/stars/andrerfneves/lightning-decoder.svg?style=social) - Decode Lightning Network request codes (BOLT11, LNURL, and Lightning Addresses)
 
 ## Communities
 
@@ -234,6 +251,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [T-bast's Lightning Network Documentation](https://github.com/t-bast/lightning-docs)
 - [Interactive Lightning Network Workshop](https://github.com/roeierez/lightning-workshop)
 - [Cyberhub's Lightning Network Resources](https://cyberhubnode.notion.site/cyberhubnode/Cyberhub-Home-34858179510a44)
+- [bitcointranscripts](https://github.com/bitcointranscripts/bitcointranscripts)![stars](https://img.shields.io/github/stars/bitcointranscripts/bitcointranscripts.svg?style=social) - A treasure trove of transcripts associated with Bitcoin and Lightning Network talks and presentations
 
 ## Network Statistics
 
