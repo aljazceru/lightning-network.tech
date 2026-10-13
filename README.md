@@ -117,6 +117,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [sling](https://github.com/daywalker90/sling) - Core Lightning plugin to automatically rebalance multiple channels
 - [nostrify](https://github.com/joelklabo/nostrify) - Core Lightning plugin that sends events to Nostr
 - [glightning](https://github.com/ElementsProject/glightning) - Python bindings and utilities for Core Lightning
+- [Macwarden](https://github.com/ZilverZtream/macwarden) - Lightning credential hygiene: track, scan, rotate and revoke LND macaroons, and inspect Core Lightning runes and L402 tokens, with verification at each step.
 
 ### LND Tools
 - [Balance of Satoshis: Advanced Node Management Toolkit](https://github.com/alexbosworth/balanceofsatoshis)
