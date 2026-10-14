@@ -2,9 +2,19 @@
 
 A curated collection of essential tools, guides, and communities for Bitcoin Lightning Network node operators.
 
-## Introduction
+## What is the Lightning Network?
 
-This guide provides a comprehensive list of resources for Lightning Network node operators, including installation guides, management tools, security best practices, and community resources. Whether you're a beginner or an experienced operator, you'll find valuable information to help you run and optimize your Lightning Network node.
+The Lightning Network is a Layer-2 payment protocol on top of Bitcoin that enables fast, low-cost, peer-to-peer transactions. It uses payment-channel state updates to keep most transactions off-chain, settling only the final balance on the Bitcoin base chain. A **Lightning node** is the software that participates in this network — opening channels, routing payments, and (optionally) serving as a routing hub for others.
+
+## Where to start
+
+If you've never set one up: [RaspiBlitz](https://github.com/rootzoll/raspiblitz) or [Umbrel](https://getumbrel.com/) get you from zero to a running node in a day. For a deeper understanding of how channels, liquidity, and routing actually work, start with [Jameson Lopp's liquidity guide](https://blog.lopp.net/lightning-network-liquidity-management-guide/) and the [LND installation docs](https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md).
+
+If you're choosing between implementations: [LND](https://github.com/lightningnetwork/lnd) (Lightning Network Daemon, Go) and [Core Lightning (CLN)](https://github.com/ElementsProject/lightning) are the two main ones. CLN is plugin-driven and lighter; LND is more GUI-friendly and has more third-party tooling.
+
+This site is a curated index of node-operator resources — not a tutorial itself. It's organized by the workflow you'll actually follow: install → secure → fund channels → manage liquidity → monitor → scale.
+
+## Maintenance
 
 ## Table of Contents
 
