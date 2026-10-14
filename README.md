@@ -30,6 +30,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 20. [Further Reading](#further-reading)
 
 ## Essential Reading
+_Last verified: 2026-10-14._
 
 - [Understanding Lightning Network: Comprehensive Guide by Diamond Hands](https://docsend.com/view/x2yscafayexddzps)
 - [Jameson Lopp's Lightning Network Liquidity Management Guide](https://blog.lopp.net/lightning-network-liquidity-management-guide/)
@@ -39,8 +40,10 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Mastering Inbound Liquidity: Step-by-Step Guide](https://www.youtube.com/watch?v=WWs1D9LLcpc)
 
 ## Node Installation
+_Last verified: 2026-10-14._
 
 ### LND (Lightning Network Daemon)
+_Last verified: 2026-10-14._
 
 - [Alex Bosworth's Comprehensive LND Installation Guide](https://github.com/alexbosworth/run-lnd)
 - [Official LND Installation Documentation](https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md)
@@ -50,17 +53,20 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 
 ### CLN (Core Lightning)
+_Last verified: 2026-10-14._
 
 - [Video Tutorial: Step-by-Step CLN Installation](https://www.youtube.com/watch?v=_Hrnls92TxQ)
 - [RaspiBolt CLN Installation and Configuration](https://raspibolt.org/guide/bonus/lightning/cln.html)
 - [Core Lightning Plugins Repository](https://github.com/lightningd/plugins)
 
 ## Backups and Recovery
+_Last verified: 2026-10-14._
 
 - [LND Backup and Recovery Strategies](https://github.com/lightningnetwork/lnd/blob/master/docs/recovery.md)
 - [Core Lightning Backup Best Practices](https://lightning.readthedocs.io/BACKUP.html)
 
 ## Self-Hosting Solutions
+_Last verified: 2026-10-14._
 
 - [RaspiBlitz: DIY Bitcoin & Lightning Node](https://github.com/rootzoll/raspiblitz)
 - [Umbrel: User-Friendly Bitcoin Node](https://getumbrel.com/)
@@ -72,12 +78,14 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [TunnelSats: Pre-Configured VPN for Lightning Nodes](https://github.com/Tunnelsats/tunnelsats)
 
 ## Managed Cloud Hosting
+_Last verified: 2026-10-14._
 
 - [Nodl: Professional Bitcoin & Lightning Node Solutions](https://www.nodl.eu/)
 - [Voltage: Cloud-Native Bitcoin Infrastructure](https://voltage.cloud/)
 - [Rizful: Instant Lightning Node](https://rizful.com/)
 
 ## Lightning Network Implementations
+_Last verified: 2026-10-14._
 
 - [LND (Lightning Network Daemon)](https://github.com/lightningnetwork/lnd)
 - [Core Lightning (formerly c-lightning)](https://github.com/ElementsProject/lightning)
@@ -86,6 +94,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [LDK Server: Fully-Functional Lightning Node Daemon](https://github.com/lightningdevkit/ldk-server)
 
 ## Node Management Web Interfaces
+_Last verified: 2026-10-14._
 
 - [Ride The Lightning (RTL): Feature-Rich Web Interface](https://github.com/Ride-The-Lightning/RTL)
 - [Thunderhub: Powerful Lightning Node Management Dashboard](https://github.com/apotdevin/thunderhub)
@@ -97,6 +106,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Bitcoin Connect: Enable WebLN in All Browsers with a Single Button](https://github.com/getAlby/bitcoin-connect)
 
 ## Security Tools
+_Last verified: 2026-10-14._
 
 - [Validated Lightning Signer: Enhanced Security for Lightning Nodes](https://vls.tech/)
 - [Sphinx Key: Hardware Security Module for Lightning](https://github.com/stakwork/sphinx-key)
@@ -105,8 +115,10 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [ngx_l402: Nginx Module for L402 Lightning Network Authentication](https://github.com/DhananjayPurohit/ngx_l402)
 
 ## Node Management Tools
+_Last verified: 2026-10-14._
 
 ### CLN Tools 
+_Last verified: 2026-10-14._
 - [CLN Cheatsheet: Quick Reference for Core Lightning Commands](https://github.com/grubles/cln-cheatsheet)
 - [lnurl-commando](https://github.com/jb55/lnurl-commando) - An lnurl/lnaddress server that fetches invoices over commando
 - [CLBOSS: Automated Core Lightning Node Manager](https://github.com/ZmnSCPxj/clboss)
@@ -120,6 +132,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Macwarden](https://github.com/ZilverZtream/macwarden) - Lightning credential hygiene: track, scan, rotate and revoke LND macaroons, and inspect Core Lightning runes and L402 tokens, with verification at each step.
 
 ### LND Tools
+_Last verified: 2026-10-14._
 - [Balance of Satoshis: Advanced Node Management Toolkit](https://github.com/alexbosworth/balanceofsatoshis)
 - [BOS Commands Document: Comprehensive Guide to Balance of Satoshis](https://github.com/niteshbalusu11/BOS-Commands-Document)
 - [Charge-LND: Automated Fee Management for LND](https://github.com/accumulator/charge-lnd)
@@ -140,6 +153,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 
 
 ## Node Services
+_Last verified: 2026-10-14._
 
 - [LNRouter: Comprehensive Lightning Network Analysis](https://lnrouter.app/)
 - [LN Node Insight: Advanced Node Metrics and Analysis](https://lnnodeinsight.com/)
@@ -148,8 +162,10 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Lightning.Pub: Nostr Native Lightning Node](https://github.com/shocknet/Lightning.Pub)
 
 ## Channel Management
+_Last verified: 2026-10-14._
 
 ### Channel Opening Suggestions
+_Last verified: 2026-10-14._
 
 
 - [Lightning Terminal: Channel Management Platform](https://terminal.lightning.engineering/#/)
@@ -158,6 +174,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [PeerSwap Web: Lightweight Web UI for PeerSwap](https://github.com/Impa10r/peerswap-web)
 
 ## Tutorials and Guides
+_Last verified: 2026-10-14._
 
 - [Lightning Node Management by Openoms: Comprehensive Guide](https://github.com/openoms/lightning-node-management)
 - [Bitcoin Tutorials by Openoms: In-Depth Learning Resources](https://github.com/openoms/bitcoin-tutorials)
@@ -167,12 +184,15 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Chantools command generator - helps you do recover funds from broken nodes](https://guggero.github.io/chantools/doc/command-generator.html) -
 
 ## Liquidity Management
+_Last verified: 2026-10-14._
 
 ### Inbound Liquidity
+_Last verified: 2026-10-14._
 
 - [Comprehensive Inbound Liquidity Guide](https://github.com/openoms/lightning-node-management/blob/master/docs/createinboundliquidity.md)
 
 ### Swaps and Exchanges
+_Last verified: 2026-10-14._
 
 - [Coinos: Instant Bitcoin-to-Lightning Swaps](https://coinos.io/login)
 - [FixedFloat: Cryptocurrency Exchange with Lightning Support](https://fixedfloat.com/)
@@ -184,6 +204,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [ZigZag: Fast Crypto Exchange with Lightning Support](https://zigzag.io/)
 
 ### Liquidity Marketplaces
+_Last verified: 2026-10-14._
 
 - [Lightning Pool: Marketplace for Lightning Liquidity](https://lightning.engineering/pool/)
 - [Lightning Pool: Non-Custodial Batched Channel Lease Auction](https://github.com/lightninglabs/pool)
@@ -191,6 +212,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Amboss Magma: Advanced Liquidity Marketplace](https://amboss.space/magma)
 
 ### Channel Leasing and LSPs
+_Last verified: 2026-10-14._
 
 - [LNBIG: Large-Scale Lightning Network Service Provider](https://lnbig.com/)
 - [Lightning Network Plus (LN+): Collaborative Channel Opening](https://lightningnetwork.plus/)
@@ -201,6 +223,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Blocktank: Professional Lightning Service Provider](https://blocktank.to/)
 
 ## Network Explorers
+_Last verified: 2026-10-14._
 
 - [1ML: Comprehensive Lightning Network Explorer](https://1ml.com/)
 - [Amboss Space: Advanced Lightning Network Analytics](https://amboss.space/)
@@ -209,6 +232,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Mempool Lightning Explorer: Bitcoin and Lightning Integration](https://mempool.space/lightning)
 
 ## Communities
+_Last verified: 2026-10-14._
 
 - [Lightning Liquidity & Pool Telegram Group](https://t.me/LNBalancedChannels)
 - [Plebnet Telegram Community](https://t.me/plebnet)
@@ -220,11 +244,13 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Reddit Liquidity Swaps Thread](https://www.reddit.com/r/TheLightningNetwork/search?sort=new&restrict_sr=on&q=flair%3ALiquidity%2BSwaps)
 
 ## Watchtowers
+_Last verified: 2026-10-14._
 
 - [The Eye of Satoshi: Rust-based Watchtower Implementation](https://github.com/talaia-labs/rust-teos)
 - [LND Watchtower: Built-in Watchtower Functionality](https://docs.lightning.engineering/lightning-network-tools/lnd/watchtower)
 
 ## Mempool Resources
+_Last verified: 2026-10-14._
 
 - [Mempool.space: Real-Time Bitcoin Mempool Visualizer](https://mempool.space/)
 
@@ -232,6 +258,7 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [TX Street: Visual Bitcoin and Ethereum Transaction Monitor](https://txstreet.com/v/btc)
 
 ## Educational Resources
+_Last verified: 2026-10-14._
 
 - [Lightning Curriculum by Chaincode Labs: Comprehensive Learning Path](https://github.com/chaincodelabs/lightning-curriculum)
 - [Mastering the Lightning Network: Open-Source Book](https://github.com/lnbook/lnbook)
@@ -242,17 +269,20 @@ This guide provides a comprehensive list of resources for Lightning Network node
 - [Cyberhub's Lightning Network Resources](https://cyberhubnode.notion.site/cyberhubnode/Cyberhub-Home-34858179510a44)
 
 ## Network Statistics
+_Last verified: 2026-10-14._
 
 - [1ML.com Lightning Network Statistics](https://1ml.com/statistics)
 - [Bitcoin Visuals - Lightning Network Metrics](https://bitcoinvisuals.com/lightning)
 
 ## Further Reading
+_Last verified: 2026-10-14._
 
 - [Diamond Hands Lightning Network Routing Report](https://medium.com/@coin_and_peace/diamond-hands-lightning-routing-report-jan-2022-85733104fa8d)
 - [Jameson Lopp's Comprehensive Lightning Network Resource Collection](https://www.lopp.net/lightning-information.html)
 - [LND Security Case Study: Recovering Funds from a Hacked Node](https://medium.com/@goryachev/bitcoin-node-security-case-study-e1ca00a378b5)
 
 ## Related Resources
+_Last verified: 2026-10-14._
 
 To explore other aspects of the Bitcoin and freedom tech ecosystem, check out these additional resource directories:
 - [nostr.net](https://www.nostr.net) - A complete guide to Nostr - projects, implementations, developer tools and all other resources
