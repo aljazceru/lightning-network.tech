@@ -2,8 +2,16 @@ include: [".well-known"]
 remote_theme: aljazceru/hacker-gh-pages-theme
 plugins:
 - jekyll-remote-theme
+- jekyll-seo-tag
 
 show_downloads: false
 google_analytics: G-2XCKJQW1ND
 plausible_script_url: https://analytics.cypherpunk.cloud/js/script.js
 plausible: lightning-network.tech
+
+title: Lightning Network Node Operator Directory
+description: A curated collection of essential tools, guides, and communities for Bitcoin Lightning Network node operators.
+author: aljaz
+lang: en
+baseurl: ""
+url: "https://lightning-network.tech"
