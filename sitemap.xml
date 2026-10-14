@@ -10,6 +10,16 @@ permalink: /sitemap.xml
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://lightning-network.tech/#what-is-the-lightning-network</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#where-to-start</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://lightning-network.tech/#essential-reading</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -20,7 +30,17 @@ permalink: /sitemap.xml
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://lightning-network.tech/#backups-and-recovery</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://lightning-network.tech/#self-hosting-solutions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#managed-cloud-hosting</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -30,12 +50,27 @@ permalink: /sitemap.xml
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lightning-network.tech/#channel-management</loc>
+    <loc>https://lightning-network.tech/#node-management-web-interfaces</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lightning-network.tech/#liquidity-management</loc>
+    <loc>https://lightning-network.tech/#security-tools</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#node-management-tools</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#node-services</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#channel-management</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -45,7 +80,27 @@ permalink: /sitemap.xml
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://lightning-network.tech/#liquidity-management</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://lightning-network.tech/#network-explorers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#communities</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#watchtowers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#mempool-resources</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -53,5 +108,20 @@ permalink: /sitemap.xml
     <loc>https://lightning-network.tech/#educational-resources</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#network-statistics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#further-reading</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://lightning-network.tech/#related-resources</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
