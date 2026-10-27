@@ -86,7 +86,6 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [Nodl: Professional Bitcoin & Lightning Node Solutions](https://www.nodl.eu/)
 - [Voltage: Cloud-Native Bitcoin Infrastructure](https://voltage.cloud/)
 - [Rizful: Instant Lightning Node](https://rizful.com/)
-- [Nodeguard](https://github.com/Elenpay/NodeGuard) - Self-hosted treasury and channel management for LND node operators.
 
 ## Lightning Network Implementations
 
@@ -151,7 +150,8 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [Lightning Node Connect: Remote Node Access for LND Applications](https://github.com/lightninglabs/lightning-node-connect)
 - [LNDinit: Cloud Infrastructure Tooling for LND Provisioning](https://github.com/lightninglabs/lndinit)
 - [LndHub.go: Accounting Wrapper for Lightning Network (LndHub Compatible)](https://github.com/getAlby/lndhub.go)
-- [Regolancer](https://github.com/rkfg/regolancer) - Flexible CLI rebalancer for LND channels with exclude lists, cost limits and auto-retry.
+- [NodeGuard: Self-Hosted Treasury and Channel Management for LND](https://github.com/Elenpay/NodeGuard)
+- [Regolancer: Flexible CLI Rebalancer for LND](https://github.com/rkfg/regolancer)
 
 
 ## Node Services
