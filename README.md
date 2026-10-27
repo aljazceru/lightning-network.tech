@@ -131,6 +131,10 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [Summars](https://github.com/daywalker90/summars) - Core Lightning plugin that summarizes channel state and recent forwards at a glance.
 - [Clnrod](https://github.com/daywalker90/clnrod) - Core Lightning plugin to allow or deny incoming channel opens via lists and custom rules.
 - [Folgore](https://github.com/coffee-tools/folgore) - Neutrino (BIP 157) Bitcoin backend plugin so Core Lightning can run without a full indexer.
+- [clnaddress](https://github.com/daywalker90/clnaddress) - Core Lightning plugin that receives LNURL, Lightning addresses, and optional Zaps.
+- [payany](https://github.com/daywalker90/payany) - Core Lightning plugin that pays LNURL and Lightning addresses from the CLI.
+- [vitality](https://github.com/daywalker90/vitality) - Core Lightning plugin that watches channel health, gossip, and Amboss online status.
+- [xrebalance](https://github.com/ksedgwic/xrebalance) - Core Lightning plugin that circular-rebalances channels using askrene.
 
 ### LND Tools
 - [Balance of Satoshis: Advanced Node Management Toolkit](https://github.com/alexbosworth/balanceofsatoshis)
@@ -152,6 +156,7 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [LndHub.go: Accounting Wrapper for Lightning Network (LndHub Compatible)](https://github.com/getAlby/lndhub.go)
 - [NodeGuard: Self-Hosted Treasury and Channel Management for LND](https://github.com/Elenpay/NodeGuard)
 - [Regolancer: Flexible CLI Rebalancer for LND](https://github.com/rkfg/regolancer)
+- [Liquidator: LND Channel Liquidity Daemon](https://github.com/Elenpay/liquidator)
 
 
 ## Node Services
