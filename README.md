@@ -128,6 +128,9 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [nostrify](https://github.com/joelklabo/nostrify) - Core Lightning plugin that sends events to Nostr
 - [glightning](https://github.com/ElementsProject/glightning) - Python bindings and utilities for Core Lightning
 - [Macwarden](https://github.com/ZilverZtream/macwarden) - Lightning credential hygiene: track, scan, rotate and revoke LND macaroons, and inspect Core Lightning runes and L402 tokens, with verification at each step.
+- [Summars](https://github.com/daywalker90/summars) - Core Lightning plugin that summarizes channel state and recent forwards at a glance.
+- [Clnrod](https://github.com/daywalker90/clnrod) - Core Lightning plugin to allow or deny incoming channel opens via lists and custom rules.
+- [Folgore](https://github.com/coffee-tools/folgore) - Neutrino (BIP 157) Bitcoin backend plugin so Core Lightning can run without a full indexer.
 
 ### LND Tools
 - [Balance of Satoshis: Advanced Node Management Toolkit](https://github.com/alexbosworth/balanceofsatoshis)
@@ -147,6 +150,8 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [Lightning Node Connect: Remote Node Access for LND Applications](https://github.com/lightninglabs/lightning-node-connect)
 - [LNDinit: Cloud Infrastructure Tooling for LND Provisioning](https://github.com/lightninglabs/lndinit)
 - [LndHub.go: Accounting Wrapper for Lightning Network (LndHub Compatible)](https://github.com/getAlby/lndhub.go)
+- [NodeGuard: Self-Hosted Treasury and Channel Management for LND](https://github.com/Elenpay/NodeGuard)
+- [Regolancer: Flexible CLI Rebalancer for LND](https://github.com/rkfg/regolancer)
 
 
 ## Node Services
