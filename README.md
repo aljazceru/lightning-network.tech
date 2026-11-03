@@ -260,6 +260,7 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [T-bast's Lightning Network Documentation](https://github.com/t-bast/lightning-docs)
 - [Interactive Lightning Network Workshop](https://github.com/roeierez/lightning-workshop)
 - [Cyberhub's Lightning Network Resources](https://cyberhubnode.notion.site/cyberhubnode/Cyberhub-Home-34858179510a44)
+- [BitVPS guides](https://github.com/BitVPSLLC/vps-guides)
 
 ## Network Statistics
 
