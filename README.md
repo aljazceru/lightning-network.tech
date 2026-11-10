@@ -157,6 +157,7 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [NodeGuard: Self-Hosted Treasury and Channel Management for LND](https://github.com/Elenpay/NodeGuard)
 - [Regolancer: Flexible CLI Rebalancer for LND](https://github.com/rkfg/regolancer)
 - [Liquidator: LND Channel Liquidity Daemon](https://github.com/Elenpay/liquidator)
+- [RaspiBolt Helper: Status banner and updater for a hand-installed RaspiBolt LND node](https://github.com/satcat21/raspibolt-helper)
 
 
 ## Node Services
