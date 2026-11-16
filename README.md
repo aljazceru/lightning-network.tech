@@ -62,8 +62,8 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 ### CLN (Core Lightning)
 
 - [Video Tutorial: Step-by-Step CLN Installation](https://www.youtube.com/watch?v=_Hrnls92TxQ)
-- [RaspiBolt CLN Installation and Configuration](https://raspibolt.org/guide/bonus/lightning/cln.html)
 - [Core Lightning Plugins Repository](https://github.com/lightningd/plugins)
+- [RaspiBolt CLN Installation and Configuration](https://raspibolt.org/docs/bonus/lightning/cln)
 
 ## Backups and Recovery
 
@@ -111,7 +111,7 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [Validated Lightning Signer: Enhanced Security for Lightning Nodes](https://vls.tech/)
 - [Sphinx Key: Hardware Security Module for Lightning](https://github.com/stakwork/sphinx-key)
 - [Lightning Vault: Secure Key Management Solution](https://github.com/bolt-observer/lightning-vault/)
-- [Validating Lightning Signer (VLS): Library for Securing Lightning Nodes](https://github.com/lightning-signer/validating-lightning-signer)
+- [Validating Lightning Signer (VLS): Library for Securing Lightning Nodes](https://gitlab.com/lightning-signer/validating-lightning-signer)
 - [ngx_l402: Nginx Module for L402 Lightning Network Authentication](https://github.com/DhananjayPurohit/ngx_l402)
 
 ## Node Management Tools
@@ -197,8 +197,6 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 
 - [Coinos: Instant Bitcoin-to-Lightning Swaps](https://coinos.io/login)
 - [FixedFloat: Cryptocurrency Exchange with Lightning Support](https://fixedfloat.com/)
-- [SideShift: Automated Crypto Trading Platform](https://sideshift.ai/btc/ln)
-- [Boltz Exchange: Non-Custodial Bitcoin Exchange](https://boltz.exchange/) - swaps LN, BTC, L-BTC
 - [Lightning Loop: Submarine Swaps for Liquidity Management](https://github.com/lightninglabs/loop)
 - [Boltz Client: Non-Custodial Swap Client for CLN & LND](https://github.com/BoltzExchange/boltz-client)
 - [PeerSwap: Channel-Aware Bitcoin and Liquid Swaps for Lightning Nodes](https://github.com/ElementsProject/peerswap)
@@ -226,7 +224,6 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [1ML: Comprehensive Lightning Network Explorer](https://1ml.com/)
 - [Amboss Space: Advanced Lightning Network Analytics](https://amboss.space/)
 
-- [LN Lighthouse: Visual Lightning Network Explorer](https://lnlighthouse.online/)
 - [Mempool Lightning Explorer: Bitcoin and Lightning Integration](https://mempool.space/lightning)
 
 ## Communities
