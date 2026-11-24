@@ -156,7 +156,7 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 - [LndHub.go: Accounting Wrapper for Lightning Network (LndHub Compatible)](https://github.com/getAlby/lndhub.go)
 - [NodeGuard: Self-Hosted Treasury and Channel Management for LND](https://github.com/Elenpay/NodeGuard)
 - [Regolancer: Flexible CLI Rebalancer for LND](https://github.com/rkfg/regolancer)
-- [Liquidator: LND Channel Liquidity Daemon](https://github.com/Elenpay/liquidator)
+- [Liquidator: LND Channel Liquidity Daemon](https://github.com/Lunar-Rails/ep-liquidator)
 - [RaspiBolt Helper: Status banner and updater for a hand-installed RaspiBolt LND node](https://github.com/satcat21/raspibolt-helper)
 
 
