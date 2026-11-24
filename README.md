@@ -1,3 +1,8 @@
+---
+title: "Lightning Network Node Hosting, Tools & Guides"
+description: "Curated Lightning Network node resources: hosting and setup guides, LND and Core Lightning tools, channel management, explorers, and APIs for node operators."
+---
+
 # Comprehensive Lightning Network Node Operator Resources
 
 A curated collection of essential tools, guides, and communities for Bitcoin Lightning Network node operators.
