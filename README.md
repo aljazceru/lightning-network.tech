@@ -267,6 +267,7 @@ This site is a curated index of node-operator resources — not a tutorial itsel
 
 - [1ML.com Lightning Network Statistics](https://1ml.com/statistics)
 - [Bitcoin Visuals - Lightning Network Metrics](https://bitcoinvisuals.com/lightning)
+- [Optaimaze: Routing Health Ranking and Alerts for the 500 Largest Lightning Nodes](https://optaimaze.com/nodes)
 
 ## Further Reading
 
